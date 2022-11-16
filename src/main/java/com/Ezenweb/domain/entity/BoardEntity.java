@@ -19,7 +19,7 @@ public class BoardEntity {
     @Column(nullable = false) // not null;
     private String bcontent; // 게시판 내용
     public MemberDto toDto(){
-        return MemberDto.builder().mno(this.bno).memail(this.btitle).mpassword(this.bcontent).build();
+        return MemberDto.builder().memail(this.btitle).mpassword(this.bcontent).build();
     }
 
 }
