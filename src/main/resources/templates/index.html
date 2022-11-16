@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+<div class="boardGrid">
+    <div class="write">
+        <h1>비회원게시판 입력</h1>
+        제목 :<input type="text" class="title"> <br>
+        내용 : <input type="text" class="content"> <br>
+        <button type="button" onclick="submit()" class="cursor">게시물입력</button>
+    </div>
+
+    <div class="look">
+        <h1>비회원게시판 출력</h1>
+        <table class="boardTranslate">
+            <tr class="boardTranslateTrComponent">
+                <th>제목</th>
+                <th>내용</th>
+            </tr>
+            <tr class="boardTranslateTrComponent">
+                <td>제목</td>
+                <td>내용</td>
+            </tr>
+        </table>
+
+
+    </div>
+</div>
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>
